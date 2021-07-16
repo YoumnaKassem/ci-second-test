@@ -9,5 +9,6 @@ jobs:
     steps:
       - run: echo "Hi"
 workflows:
-  jobs:
-    - sayHi
+  welcome:
+    jobs:
+      - sayHi
